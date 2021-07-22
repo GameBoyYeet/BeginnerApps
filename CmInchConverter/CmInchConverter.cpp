@@ -12,8 +12,13 @@ int main()
     cin >> length >> unit;
     switch (unit)
     {
+    case 'c':
+        cout << length << "cm = " << length / cm_per_inch << "in\n";
+        system("pause");
+        break;
     case 'i':
-        cout << length << "in == " << length / cm_per_inch << "in\n";
+        cout << length << "in = " << length * cm_per_inch << "cm\n";
+        system("pause");
         break;
     default:
         cout << "Sorry, I don't know a unit called " << unit << ". Re-open the program to try again.\n";
