@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6aa067fe-f67f-4720-8555-ff740671504f}</ProjectGuid>
-    <RootNamespace>Greetings</RootNamespace>
+    <ProjectGuid>{e75af315-254e-4952-9832-16f0f12ea5f7}</ProjectGuid>
+    <RootNamespace>GreetingsLetterGenerator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Greetings.cpp" />
+    <ClCompile Include="GreetingsLetterGenerator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
