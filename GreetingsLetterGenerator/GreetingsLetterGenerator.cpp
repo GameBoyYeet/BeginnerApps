@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter the name of the person you would like to write to:\n";
+    cout << "This program will generate a basic letter.\nEnter the name of the person you would like to write to:\n";
     string friendName;
     cin >> friendName;
     cout << "How old is your friend?\n";

@@ -2,10 +2,11 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    
+    cout << "This program will convert miles to kilometers\nEnter an amount of miles.";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
