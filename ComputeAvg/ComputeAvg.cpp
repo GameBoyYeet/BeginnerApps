@@ -22,15 +22,16 @@ int main()
 	while (true)
 	{
 		cin >> currentNumText;
-		if (not case_insensitive_match(currentNumText, "done")) {
-			currentNum = stod(currentNumText);
-			nums.push_back(currentNum);
+		if (not case_insensitive_match(currentNumText, "done")) // if the most recent input isn't "done"
+		{
+			currentNum = stod(currentNumText); // Convert to double
+			nums.push_back(currentNum); // Add to vector (list)
 		}
 		else
 		{
 			double sum = 0;
 			for (int x : nums) sum += x;
-			cout << "Mean: " << sum / nums.size() << '\n';
+			cout << "Mean: " << sum / nums.size() << '\n'; // Calc the mean
 			system("pause");
 			exit(0);
 		}
