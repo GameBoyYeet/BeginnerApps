@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SquareListGenerator", "Squa
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupWizardv1", "SetupWizardv1\SetupWizardv1.vdproj", "{DA1CB735-740E-457F-BC62-AFF2EFE1CB7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComputeAvg", "ComputeAvg\ComputeAvg.vcxproj", "{4FEE7690-6784-4941-8DD4-CB4DE01A673F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -68,6 +70,14 @@ Global
 		{DA1CB735-740E-457F-BC62-AFF2EFE1CB7D}.Release|x64.ActiveCfg = Release
 		{DA1CB735-740E-457F-BC62-AFF2EFE1CB7D}.Release|x86.ActiveCfg = Release
 		{DA1CB735-740E-457F-BC62-AFF2EFE1CB7D}.Release|x86.Build.0 = Release
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Debug|x64.ActiveCfg = Debug|x64
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Debug|x64.Build.0 = Debug|x64
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Debug|x86.Build.0 = Debug|Win32
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Release|x64.ActiveCfg = Release|x64
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Release|x64.Build.0 = Release|x64
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Release|x86.ActiveCfg = Release|Win32
+		{4FEE7690-6784-4941-8DD4-CB4DE01A673F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
