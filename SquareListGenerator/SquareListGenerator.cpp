@@ -12,7 +12,6 @@ int main()
     case 's':
         cout << "Enter the highest number that you want squared. (no decimals!)\n";
         cin >> highestSquare;
-        highestSquare++;
         if (highestSquare >= 50000)
         {
             char confirm = ' ';
@@ -44,7 +43,6 @@ int main()
     case 'r':
         cout << "Enter the highest number that you want the square root of. (no decimals!)\n";
         cin >> highestRoot;
-        highestRoot++;
         if (highestRoot >= 50000) 
         {
             char confirm = ' ';
