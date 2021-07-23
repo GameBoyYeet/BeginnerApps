@@ -54,6 +54,7 @@ int main()
                     {
                         cout << i << '\t' << sqrt(i) << '\n';
                     }
+                default:
                     system("pause");
                     exit(0);
                     break;
