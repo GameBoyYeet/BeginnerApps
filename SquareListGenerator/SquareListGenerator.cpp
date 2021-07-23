@@ -6,11 +6,10 @@
 using namespace std;
 int main()
 {
-    cout << "This program will generate a list of squares within the range that you choose.\nEnter the highest number that you want squared.\n";
-    int i = 0;
+    cout << "This program will generate a list of squares within the range that you choose.\nEnter the highest number that you want squared. (no decimals!)\n";
     double high;
     cin >> high;
-    while (i <= high)
+    for (int i = 0; i <= high; i++)
     {
         cout << i << '\t' << pow(i,2) << '\n';
         i++;
