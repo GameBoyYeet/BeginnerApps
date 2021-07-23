@@ -28,6 +28,7 @@ int main()
                 default:
                     system("pause");
                     exit(0);
+                    break;
             }
         }
         else
