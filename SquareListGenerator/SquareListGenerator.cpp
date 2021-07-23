@@ -9,11 +9,7 @@ int main()
     cout << "This program will generate a list of squares within the range that you choose.\nEnter the highest number that you want squared.\n";
     int i = 0;
     double high;
-    {
-        cout << "The lowest possible power is 2. Re-open the program to try again.\n";
-        system("pause");
-        exit(EXIT_FAILURE);
-    }
+    cin >> high;
     while (i <= high)
     {
         cout << i << '\t' << pow(i,2) << '\n';
