@@ -1,29 +1,29 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
+#include <algorithm>
 using namespace std;
 
 void invalidInput()
 {
-    cout << "Your input is invalid. Re-open the program to try again.\n";
+    cout << "Your input is invalid. Re-open the program to try again. ";
     system("pause");
-    exit(0);
+    exit(1);
 }
 
 int main()
 {
-    int operation = 10;
-    cout << "This program can compare or do math on 2 numbers that you provide.\nWhat would you like to do?\nDo math on the numbers (0) or Compare the numbers (1)\n";
-    cin >> operation;
-    if (operation == 0)
+    double one;
+    double two;
+    double result;
+    char operation; // Declare variables for later
+    cout << "Enter two numbers, seperated by a space:\n";
+    cin >> one >> two;
+    int mode = 10;
+    cout << "This program can compare or do math on 2 numbers that you provided.\nWhat would you like to do?\nDo math on the numbers (0) or Compare the numbers (1): ";
+    cin >> mode;
+    if (mode == 0)
     {
-        double one;
-        double two;
-        double result;
-        cout << "Enter two numbers, seperated by a space:\n";
-        cin >> one >> two;
-        cout << '\n';
-        char operation;
         cout << "Would you like to add (+), subtract (-), multiply (*), or divide (/)?: ";
         cin >> operation;
         cout << '\n';
@@ -53,13 +53,26 @@ int main()
                 system("pause");
                 exit(0);
                 break;
+            default:
+                invalidInput();
         }
             
 
     }
-    else if (operation == 1)
+    else if (mode == 1)
     {
-
+        if (one < two)
+        {
+            cout << one << " < " << two;
+        }
+        else if (one = two)
+        {
+            cout << one << " = " << two;
+        }
+        else if (one > two)
+        {
+            cout << one << " > " << two;
+        }
     }
     else
     {
