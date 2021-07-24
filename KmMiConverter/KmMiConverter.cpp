@@ -13,13 +13,13 @@ int main()
 	switch (unit)
 	{
 		case 'k':
-			result = num * 1.609;
+			result = num / 1.609;
 			cout << num << " kilometers is approx. " << result << " miles\n";
 			system("pause");
 			exit(0);
 			break;
 		case 'm':
-			result = num / 1.609;
+			result = num * 1.609;
 			cout << num << " miles is approx. " << result << "kilometers\n";
 			break;
 		default:
