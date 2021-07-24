@@ -18,7 +18,7 @@ int case_insensitive_match(string s1, string s2) {
 
 int main()
 {
-	cout << "This program will find the mean of a set of numbers.\nEnter a list of numbers, seperated by 'Enter'. Type 'done' when you are done.\n";
+	cout << "This program will find the median of a set of numbers.\nEnter a list of numbers, seperated by 'Enter'. Type 'done' when you are done.\n";
 	while (true)
 	{
 		cin >> currentNumText;
@@ -29,9 +29,8 @@ int main()
 		}
 		else
 		{
-			double sum = 0;
-			for (int x : nums) sum += x;
-			cout << "Mean: " << sum / nums.size() << '\n'; // Calc and display the mean
+			sort(nums.begin(), nums.end());
+			cout << "Median: " << nums[nums.size()/2] << '\n'; // Calc and display the median
 			system("pause");
 			exit(0);
 		}
