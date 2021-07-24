@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5da21406-476e-441a-a565-f3829f7666bc}</ProjectGuid>
-    <RootNamespace>KilometersToMiles</RootNamespace>
+    <ProjectGuid>{dba366c9-54ad-4f5d-a7e9-ef2e9e4fd798}</ProjectGuid>
+    <RootNamespace>KmMiConverter</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="KilometersToMiles.cpp" />
+    <ClCompile Include="KmMiConverter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
