@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KmMiConverter", "KmMiConver
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumOperations", "NumOperations\NumOperations.vcxproj", "{59DAD173-9E2E-4947-9C3B-CF388CB49B74}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DimensionCalc", "DimensionCalc\DimensionCalc.vcxproj", "{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -128,6 +130,14 @@ Global
 		{59DAD173-9E2E-4947-9C3B-CF388CB49B74}.Release|x64.Build.0 = Release|x64
 		{59DAD173-9E2E-4947-9C3B-CF388CB49B74}.Release|x86.ActiveCfg = Release|Win32
 		{59DAD173-9E2E-4947-9C3B-CF388CB49B74}.Release|x86.Build.0 = Release|Win32
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Debug|x64.ActiveCfg = Debug|x64
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Debug|x64.Build.0 = Debug|x64
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Debug|x86.Build.0 = Debug|Win32
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Release|x64.ActiveCfg = Release|x64
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Release|x64.Build.0 = Release|x64
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Release|x86.ActiveCfg = Release|Win32
+		{3366D2F3-A37C-4E5B-9F2C-96ED68708EF3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
