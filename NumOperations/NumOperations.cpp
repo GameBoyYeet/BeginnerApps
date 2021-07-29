@@ -19,6 +19,12 @@ int main()
     char operation; // Declare variables for later
     cout << "Enter two numbers, seperated by a space:\n";
     cin >> one >> two;
+    if (!cin)
+    {
+        cout << "Something went wrong when taking inputs. This is most likely because the inputs aren't numbers. Re-open the program to try again.\n";
+        system("pause");
+        exit(1);
+    }
     int mode = 10;
     cout << "This program can compare or do math on 2 numbers that you provided.\nWhat would you like to do?\nDo math on the numbers (0) or Compare the numbers (1): ";
     cin >> mode;

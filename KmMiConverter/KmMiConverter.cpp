@@ -10,6 +10,12 @@ int main()
 	char unit;
 	cout << "This program can convert kilometers to miles and vice versa.\nEnter a number followed by a unit (k or m)\n";
 	cin >> num >> unit;
+	if (!cin)
+	{
+		cout << "Something went wrong when taking inputs. This is most likely because you didn't provide the correct types of values. Re-open the program to try again.\n";
+		system("pause");
+		exit(1);
+	}
 	switch (unit)
 	{
 		case 'k':
